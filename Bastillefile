@@ -4,5 +4,5 @@ CMD mkdir /usr/local/etc/rc.d/
 CMD npm install pm2@latest -g
 CMD npm install n8n@latest -g
 CMD pm2 start n8n -- --port="${port}"
-CMD pm2 save
 CMD pm2 startup
+CMD pm2 save
