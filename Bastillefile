@@ -1,0 +1,3 @@
+PKG npm
+CMD npm install n8n -g
+n8n start
